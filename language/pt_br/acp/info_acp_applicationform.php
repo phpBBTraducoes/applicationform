@@ -6,7 +6,7 @@
 * @package - Application Form language
 * @copyright 2016 Rich McGirr (RMcGirr83)
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
-* Brazilian Portuguese translation by eunaumtenhoid (c) 2017 [ver 1.0.6] (https://github.com/phpBBTraducoes)
+* Brazilian Portuguese translation by eunaumtenhoid [2017][ver 1.0.7] (https://github.com/phpBBTraducoes)
 */
 
 if (!defined('IN_PHPBB'))
@@ -35,7 +35,7 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	//Module and page titles
-	'ACP_APPFORM_TITLE'					=> 'Application Form',
+	'ACP_APPFORM_TITLE'					=> 'Formulario de candidatura',
 	'ACP_APP_FORM'						=> 'Configuracões',
-	'LOG_APPFORM_CONFIG_SAVED'	=> '<strong>Configuracões do Application form alteradas</strong>',
+	'LOG_APPFORM_CONFIG_SAVED'	=> '<strong>Configuracões do Formulario de candidatura alteradas</strong>',
 ));

@@ -6,7 +6,7 @@
 * @package - Application Form language
 * @copyright 2016 Rich McGirr (RMcGirr83)
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
-* Brazilian Portuguese translation by eunaumtenhoid (c) 2017 [ver 1.0.6] (https://github.com/phpBBTraducoes)
+* Brazilian Portuguese translation by eunaumtenhoid [2017][ver 1.0.7] (https://github.com/phpBBTraducoes)
 */
 
 if (!defined('IN_PHPBB'))
@@ -34,9 +34,10 @@ if (empty($lang) || !is_array($lang))
 // ’ » “ ” …
 
 $lang = array_merge($lang, array(
-	'ACP_APPLICATIONFORM_SETTINGS'		=> 'Configuracões do Application Form',
+	'ACP_APPLICATIONFORM_SETTINGS'		=> 'Configuracões do Formulario de candidatura',
 	'APPLICATIONFORM_FORUM'				=> 'Fórum',
 	'APPLICATIONFORM_FORUM_EXPLAIN'		=> 'Selecione o forum, para onde o formulario sera postado.',
+	'APPFORM_FORUM_NO_ATTACH'			=> 'O fórum selecionado não permite anexos.',
 	'APPLICATIONFORM_POSITIONS'			=> 'Formulario de Posicoes',
 	'APPLICATIONFORM_POSITIONS_EXPLAIN'	=> 'Digite as posicoes para que os usuarios solicitem aplicacoes em linhas separadas.',
 	'APPFORM_SETTINGS_SUCCESS'			=> 'Configuracoes do formulario de candidatura foram salvas.',
@@ -49,4 +50,6 @@ $lang = array_merge($lang, array(
 	'APPLICATIONFORM_ALLOW_ATTACHMENT_EXPLAIN' => 'Se definido sim, arquivos tipo doc, pdf e textos serao autorizados a serem carregados.',
 	'APPLICATIONFORM_ATTACHMENT_REQ'	=> 'Necessario o anexo',
 	'APPLICATIONFORM_ATTACHMENT_REQ_EXPLAIN' => 'Se definido sim, o formulario ira requerer um anexo para posicao a qual se candidata.',
+	'APPLICATIONFORM_QUESTIONS'			=> 'Perguntas',
+	'APPLICATIONFORM_QUESTIONS_EXPLAIN'	=> 'Qualquer pergunta adicional que você queira fazer no formulário pode ser colocada aqui. Cada pergunta vai em uma nova linha.',
 ));

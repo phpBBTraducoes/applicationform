@@ -6,7 +6,7 @@
 * @package language
 * @copyright (c) 2016 Rich McGirr (RMcGirr83)
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
-* Brazilian Portuguese translation by eunaumtenhoid (c) 2017 [ver 1.0.6] (https://github.com/phpBBTraducoes)
+* Brazilian Portuguese translation by eunaumtenhoid [2017][ver 1.0.7] (https://github.com/phpBBTraducoes)
 */
 
 /**
